@@ -12,3 +12,14 @@
 }
 
 ```
+### How to run project:
+1. Clone the repository
+2. Run following commands in cmd
+```bash
+virtualenv env
+env/Scripts/activate
+pip install -r requirements.txt
+cd Nsn_assignment
+python manage.py runserver
+```
+3. Now the backend is up and running in http://127.0.0.1:8000/
